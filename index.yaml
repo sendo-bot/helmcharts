@@ -124,4 +124,51 @@ entries:
     urls:
     - https://sendo-bot.github.io/helmcharts/nextcloud-2.11.1.tgz
     version: 2.11.1
-generated: "2022-01-20T15:14:54.500576151+09:00"
+  postgres-operator:
+  - apiVersion: v1
+    appVersion: 1.7.1
+    created: "2022-01-21T17:29:10.656157397+09:00"
+    description: Postgres Operator creates and manages PostgreSQL clusters running
+      in Kubernetes
+    digest: 7262563bec0b058e669ae6bcff0226e33fa9ece9c41ac46a53274046afe7700c
+    home: https://github.com/zalando/postgres-operator
+    keywords:
+    - postgres
+    - operator
+    - cloud-native
+    - patroni
+    - spilo
+    maintainers:
+    - email: opensource@zalando.de
+      name: Zalando
+    name: postgres-operator
+    sources:
+    - https://github.com/zalando/postgres-operator
+    urls:
+    - https://sendo-bot.github.io/helmcharts/postgres-operator-1.7.1.tgz
+    version: 1.7.1
+  postgres-operator-ui:
+  - apiVersion: v1
+    appVersion: 1.7.1
+    created: "2022-01-21T17:29:10.656669499+09:00"
+    description: Postgres Operator UI provides a graphical interface for a convenient
+      database-as-a-service user experience
+    digest: 97aed1a1d37cd5f8441eea9522f38e56cc829786ad2134c437a5e6a15c995869
+    home: https://github.com/zalando/postgres-operator
+    keywords:
+    - postgres
+    - operator
+    - ui
+    - cloud-native
+    - patroni
+    - spilo
+    maintainers:
+    - email: opensource@zalando.de
+      name: Zalando
+    name: postgres-operator-ui
+    sources:
+    - https://github.com/zalando/postgres-operator
+    urls:
+    - https://sendo-bot.github.io/helmcharts/postgres-operator-ui-1.7.1.tgz
+    version: 1.7.1
+generated: "2022-01-21T17:29:10.573838352+09:00"
